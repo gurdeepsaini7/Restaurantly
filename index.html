@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Gurdeep-Saini">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurantly</title>
+
+    <!-- Swiper JS File -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <!-- AOS File -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d2ea8c503b.js" crossorigin="anonymous"></script>
+</head>
+<body id="menu-bar">   
+    <!-- ====== Hero Starts ====== -->
+    <div class="hero" id="#top">
+        <!-- Top Bar -->
+        <div class="my-container">
+            <div class="top-bar">
+                <div class="left">
+                    <p class="margin-right"><span class="fa fa-mobile"></span>+91 9050570769</p>
+                    <p><span class="fa fa-clock-o"></span>Mon-Sat: 11AM - 10PM</p>
+                </div>
+                <div class="right">
+                    <p> <span>En</span> <span class="slash">/</span> <span class="de">De</span></p>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <div class="full-nav">
+            <div class="my-container new-nav">
+                <header class="header">
+                    <h1>Restaurantly</h1>
+                    <nav class="navbar1">
+                        <ul class="navbar-list">
+                            <li class="active-link"><a class="navbar-link" href="#">Home</a></li>
+                            <li><a class="navbar-link" href="#about">About</a></li>
+                            <li><a class="navbar-link" href="#menu">Menu</a></li>
+                            <li><a class="navbar-link" href="#specials">Specials</a></li>
+                            <li><a class="navbar-link" href="#events">Events</a></li>
+                            <li><a class="navbar-link" href="#chefs">Chefs</a></li>
+                            <li><a class="navbar-link" href="#gallery">Gallery</a></li>
+                            <li class="dropDown"><a class="navbar-link" href="#">Drop Down <span class="fa fa-chevron-down"></span></a>
+                                <ul class="sub-dropdown">
+                                    <li><a href="#">Drop Down 1</a></li>
+                                    <li class="sub-deep-dropdown"><a href="#">Deep Drop Down <span class="fa fa-chevron-right"></span></a> 
+                                        <ul>
+                                            <li><a class="sub-navbar-link" href="#">Deep Drop Down 1</a></li>
+                                            <li><a class="sub-navbar-link" href="#">Deep Drop Down 2</a></li>
+                                            <li><a class="sub-navbar-link" href="#">Deep Drop Down 3</a></li>
+                                            <li><a class="sub-navbar-link" href="#">Deep Drop Down 4</a></li>
+                                            <li><a class="sub-navbar-link" href="#">Deep Drop Down 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Drop Down 2</a></li>
+                                    <li><a href="#">Drop Down 3</a></li>
+                                    <li><a href="#">Drop Down 4</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="navbar-link" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="mobile-navbar-btn">
+                        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                        <ion-icon name="close-outline" class="mobile-nav-icon close-btn"></ion-icon>
+                    </div>
+                    <a href="#reservation" class="book-a-table display-none">BOOK A TABLE</a>
+                </header>
+            </div>
+        </div>
+        <!-- Banner -->
+        <div class="my-container new-container new-btn">
+            <div class="row row1"  data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-lg-8 col-md-8 banner">                   
+                    <h1>Welcome to <span>Restaurantly</span></h1> 
+                    <h3>Delivering great food for more than 18 years!</h3> 
+                    <div class="responsive-btn">
+                        <a href="#menu" class="book-a-table margin-right">OUR MENU</a>
+                        <a href="#reservation" class="book-a-table">BOOK A TABLE</a>
+                    </div>   
+                </div> 
+                <!-- Play Button -->
+                <div class=" col-lg-4 col-md-4 center1">
+                    <div class="border">
+                        <div class="utub-vd">
+                            <a href="https://youtu.be/GlrxcuEDyF8" target="_blank"><span class="fa fa-play"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> 
+
+    <!-- ======= About Starts ======= -->  
+    <section class="about" id="about">
+        <div class="about-bg">
+            <div class="my-container">
+                <div class="row order-row" data-aos="fade-up">
+                    <div class="col-lg-6 Col-md-6 order_1">
+                        <div class="text">
+                            <h2>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                            <p class="italic"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
+                            <p><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><span class="fa fa-check-circle-o"></span> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                            <p><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+                            <p class="margin-top">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 Col-md-6 order_2 center-img" data-aos="zoom-in">
+                        <div class="image">
+                            <img src="img/about.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Ends -->
+
+    <!-- ======= Why Us Starts ======= -->
+    <section class="why-us">
+        <div class="my-container">
+            <div class="text">
+                <div class="row row1"  data-aos="fade-up">
+                    <div class="col-lg-12">
+                        <p class="common-p">why us</p>
+                        <h1 class="common-h1">Why Choose Our Restaurant</h1>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="box" data-aos="zoom-in">
+                        <h2>01</h2>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                    </div>
+                    <div class="box" data-aos="zoom-in">
+                        <h2>02</h2>
+                        <h3>Repellat Nihil</h3>
+                        <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+                    </div>
+                    <div class="box margin-bottom" data-aos="zoom-in">
+                        <h2>03</h2>
+                        <h3>Ad ad velit qui</h3>
+                        <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Us Ends -->
+
+    <!-- ======= Menu Starts ======= -->
+    <div class="menu" id="menu">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-12 text" data-aos="fade-up">
+                    <p class="common-p">Menu</p>
+                    <h1 class="common-h1">Check Our Tasty Menu</h1>
+                </div>
+                <div class="col-lg-12">
+                    <div class="menu-links">
+                        <ul class="menu-filter" data-aos="zoom-in" data-aos-delay="100">
+                            <li class="filter-active">All</li>
+                            <li>Starters</li>
+                            <li>Salads</li>
+                            <li>Specialty</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dishes" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/lobster-bisque.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Lobster Bisque</a><span>$5.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/bread-barrel.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Bread Barrel</a><span>$6.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/cake.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Crab Cake</a><span>$7.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/caesar.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Caesar Selections</a><span>$8.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/tuscan-grilled.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Tuscan Grilled</a><span>$9.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/mozzarella.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Mozzarella Stick</a><span>$4.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Lorem, deren, trataro, filede, nerada</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/greek-salad.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Greek Salad</a><span>$9.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/spinach-salad.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Spinach Salad</a><span>$9.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 menu-item">
+                        <img src="img/menu/lobster-roll.jpg" alt="">
+                        <div class="menu-content">
+                            <a href="#">Lobster Roll</a><span>$12.95</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            <p>Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu Ends -->
+
+    <!-- ======= Specials Starts ======= -->
+    <div class="specials" id="specials">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-12" data-aos="fade-up">
+                    <div class="text">
+                        <p class="common-p">Specials</p>
+                        <h1 class="common-h1">Check Our Specials</h1>
+                    </div>
+                </div>
+
+                <div class="row row2" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-lg-3 col-md-3 special-group">
+                        <ul class="special-list">
+                            <li class="special-link"><a class="special-a" href="#tab-1">Modi sit est</a></li>
+                            <li class="special-link"><a class="special-a" href="#tab-2">Unde praesentium sed</a></li>
+                            <li class="special-link"><a class="special-a" href="#tab-3">Pariatur explicabo vel</a></li>
+                            <li class="special-link"><a class="special-a" href="#tab-4">Nostrum qui quasi</a></li>
+                            <li class="special-link"><a class="special-a" href="#tab-5">Iusto ut expedita aut</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-9 col-md-9 explain-dish">
+                        <div class="row explain-1" id="tab-1">
+                            <div class="col-lg-8 col-md-8 text">
+                                <h3>Architecto ut aperiam autem id</h3>
+                                <p><i>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</i></p>
+                                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 image">
+                                <img src="img/specials-1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row explain-2 display-block" id="tab-2">
+                            <div class="col-lg-8 col-md-8 text">
+                                <h3>Et blanditiis nemo veritatis excepturi</h3>
+                                <p><i>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</i></p>
+                                <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 image">
+                                <img src="img/specials-2.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row explain-3 display-block" id="tab-3">
+                            <div class="col-lg-8 col-md-8 text">
+                                <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                                <p><i>Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</i></p>
+                                <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 image">
+                                <img src="img/specials-3.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row explain-4 display-block" id="tab-4">
+                            <div class="col-lg-8 col-md-8 text">
+                                <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
+                                <p><i>Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</i></p>
+                                <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 image">
+                                <img src="img/specials-4.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row explain-5 display-block" id="tab-5">
+                            <div class="col-lg-8 col-md-8 text">
+                                <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                                <p><i>Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</i></p>
+                                <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                            </div>
+                            <div class="col-lg-4 col-md-4 image">
+                                <img src="img/specials-5.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Specials Ends -->
+
+    <!-- ======= Events Starts ======= -->
+    <div class="events" id="events">
+        <div class="events-bg">
+            <div class="my-container">
+                <div class="row">
+                    <div class="col-lg-12" data-aos="fade-up">
+                        <div class="text">
+                            <p class="common-p">Events</p>
+                            <h1 class="common-h1">Organize Your Events in our Restaurant</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row2">
+                    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="my-indicator active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1" class="my-indicator"></li>
+                                <li data-target="#myCarousel" data-slide-to="2" class="my-indicator"></li>
+                            </ol>
+                            <!-- Images-container -->
+                            <div class="carousel-inner">
+                                <div class="item item-1 active">
+                                    <img src="img/event-birthday.jpg" class="carousel-image" alt="image-1">
+                                    <div class="carousel-caption my-caption">
+                                        <h3>Birthday Parties</h3>
+                                        <p><span>$189</span></p>
+                                        <p class="margin-top"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.</i></p>
+                                        <ul>
+                                            <li><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                            <li><span class="fa fa-check-circle-o"></span> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                            <li><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                        </ul>
+                                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla pariatur</p>
+                                    </div>
+                                </div>
+                                <div class="item item-1">
+                                    <img src="img/event-private.jpg" class="carousel-image" alt="image-2">
+                                    <div class="carousel-caption my-caption">
+                                        <h3>Private Parties</h3>
+                                        <p><span>$290</span></p>
+                                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.</i></p>
+                                        <ul>
+                                            <li><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                            <li><span class="fa fa-check-circle-o"></span> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                            <li><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                        </ul>
+                                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla pariatur</p>
+                                    </div>
+                                </div>
+                                <div class="item item-1">
+                                    <img src="img/event-custom.jpg" class="carousel-image" alt="image-3">
+                                    <div class="carousel-caption my-caption">
+                                        <h3>Custom Parties</h3>
+                                        <p><span>$99</span></p>
+                                        <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua.</i></p>
+                                        <ul>
+                                            <li><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                            <li><span class="fa fa-check-circle-o"></span> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                            <li><span class="fa fa-check-circle-o"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                        </ul>
+                                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla pariatur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Events Ends -->
+
+    <!-- ======= Reservation Starts ======= -->
+    <div class="reservation" id="reservation">
+        <div class="my-container">
+            <div class="text" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="common-p">Reservation</p>
+                        <h1 class="common-h1">Book a Table</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="reservation-form" data-aos="fade-up">
+                <form action="#" class="form form-group">
+                    <input class="form-control" type="text" name="your-name" placeholder="Your Name">
+                    <input class="form-control" type="email" name="email" placeholder="Your Email">
+                    <input class="form-control" type="text" name="mobile" placeholder="Your Phone">
+                    <input class="form-control" type="text" name="date" placeholder="Date">
+                    <input class="form-control" type="text" name="time" placeholder="Time">
+                    <input class="form-control" type="number" value="number" placeholder="# of people">
+                    <textarea class="form-control" name="comment-box" rows="5" placeholder="Message"></textarea>
+                    <div class="submit">
+                        <button type="submit" class="book-a-table">Book a Table</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Reservation Ends -->
+
+    <!-- ======= Testimonials Starts ======= -->
+    <div class="testimonial">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text" data-aos="fade-up">
+                        <p class="common-p">TESTIMONIALS</p>
+                        <h1 class="common-h1">What they're saying about us</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper" data-aos="fade-up" data-aos-delay="300">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide active">
+                        <div class="item">
+                            <div class="para">
+                                <p>
+                                    <span class="fa fa-quote-left"></span>
+                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                    <span class="fa fa-quote-right"></span>
+                                </p>
+                            </div>
+                            <img src="img/testimonials/testimonials-1.jpg" alt="">
+                            <h3>Saul Goodman</h3>
+                            <p class="designation">Ceo &amp; Founder</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="para">
+                                <p>
+                                    <span class="fa fa-quote-left"></span>
+                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                    <span class="fa fa-quote-right"></span>
+                                </p>
+                            </div>
+                            <img src="img/testimonials/testimonials-2.jpg" alt="">
+                            <h3>Sara Wilsson</h3>
+                            <p class="designation">Designer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="para">
+                                <p>
+                                    <span class="fa fa-quote-left"></span>
+                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                    <span class="fa fa-quote-right"></span>
+                                </p>
+                            </div>
+                            <img src="img/testimonials/testimonials-3.jpg" alt="">
+                            <h3>Jena Karlis</h3>
+                            <p class="designation">Store Owner</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="para">
+                                <p>
+                                    <span class="fa fa-quote-left"></span>
+                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                    <span class="fa fa-quote-right"></span>
+                                </p>
+                            </div>
+                            <img src="img/testimonials/testimonials-4.jpg" alt="">
+                            <h3>Matt Brandon</h3>
+                            <p class="designation">Freelancer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="para">
+                                <p>
+                                    <span class="fa fa-quote-left"></span>
+                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                    <span class="fa fa-quote-right"></span>
+                                </p>
+                            </div>
+                            <img src="img/testimonials/testimonials-5.jpg" alt="">
+                            <h3>John Larson</h3>
+                            <p class="designation">Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial Ends -->
+
+    <!-- ======= Gallery Starts ======= -->
+    <div class="gallery" id="gallery">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text" data-aos="fade-up">
+                        <p class="common-p">Gallery</p>
+                        <h1 class="common-h1">Some photos from Our Restaurant</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container">
+                    <a href="img/gallery/gallery-1.jpg">
+                        <img src="img/gallery/gallery-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container">
+                    <a href="img/gallery/gallery-2.jpg">
+                        <img src="img/gallery/gallery-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container">
+                    <a href="img/gallery/gallery-3.jpg">
+                        <img src="img/gallery/gallery-3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container">
+                    <a href="img/gallery/gallery-4.jpg">
+                        <img src="img/gallery/gallery-4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container border-bottom">
+                    <a href="img/gallery/gallery-5.jpg">
+                        <img src="img/gallery/gallery-5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container border-bottom">
+                    <a href="img/gallery/gallery-6.jpg">
+                        <img src="img/gallery/gallery-6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container border-bottom">
+                    <a href="img/gallery/gallery-7.jpg">
+                        <img src="img/gallery/gallery-7.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 image-container border-bottom">
+                    <a href="img/gallery/gallery-8.jpg">
+                        <img src="img/gallery/gallery-8.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Ends -->
+
+    <!-- ======= Chefs Starts ======= -->
+    <div class="chefs" id="chefs">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text" data-aos="fade-up">
+                        <p class="common-p">Chefs</p>
+                        <h1 class="common-h1">Our Proffesional Chefs</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="team">                
+                <div class="team-member" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="img/chefs/chefs-1.jpg" alt="">
+                    <div class="about-chef">
+                        <div class="name">
+                            <h3>Walter White</h3>
+                            <p>Master Chef</p>
+                        </div>
+                        <div class="social-media">
+                            <span class="fa fa-twitter"></span>
+                            <span class="fa fa-facebook"></span>
+                            <span class="fa fa-instagram"></span>
+                            <span class="fa fa-linkedin-square"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member team-member-2" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="img/chefs/chefs-2.jpg" alt="">
+                    <div class="about-chef">
+                        <div class="name">
+                            <h3>Sarah Jhonson</h3>
+                            <p>Patissier</p>
+                        </div>
+                        <div class="social-media">
+                            <span class="fa fa-twitter"></span>
+                            <span class="fa fa-facebook"></span>
+                            <span class="fa fa-instagram"></span>
+                            <span class="fa fa-linkedin-square"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member team-member-3" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="img/chefs/chefs-3.jpg" alt="">
+                    <div class="about-chef">
+                        <div class="name">
+                            <h3>William Anderson</h3>
+                            <p>Cook</p>
+                        </div>
+                        <div class="social-media">
+                            <span class="fa fa-twitter"></span>
+                            <span class="fa fa-facebook"></span>
+                            <span class="fa fa-instagram"></span>
+                            <span class="fa fa-linkedin-square"></span>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <!-- Chefs Ends -->
+
+    <!-- ======= Contact Us Starts ======= -->
+    <div class="contact" id="contact">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text" data-aos="fade-up">
+                        <p class="common-p">Contact</p>
+                        <h1 class="common-h1">Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" data-aos="zoom-in"></iframe>
+        
+        <!-- Address And Contact Form -->
+        <div class="my-container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-4 col-md-4 left">
+                    <div class="contact-item">
+                        <span class="fa fa-map-marker"></span>
+                        <h3>Location:</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="fa fa-clock-o"></span>
+                        <h3>Open Hours:</h3>
+                        <p>Monday-Saturday : 11:00 AM - 10:00 PM</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="fa fa-envelope-o"></span>
+                        <h3>Email:</h3>
+                        <p>gurdeepsaini9050@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="fa fa-mobile"></span>
+                        <h3>Call:</h3>
+                        <p>+91 9050570769</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 right">
+                    <div class="reservation-form">
+                        <form action="#" class="form form-group">
+                            <input class="form-control" type="text" name="your-name" placeholder="Your Name">
+                            <input class="form-control" type="email" name="email" placeholder="Your Email">
+                            <input class="form-control" type="text" name="subject" placeholder="Subject">
+                            <textarea class="form-control" name="comment-box" rows="5" placeholder="Message"></textarea>
+                            <div class="submit">
+                                <button type="submit" class="book-a-table">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us Ends -->
+
+    <!-- ======= Footer Starts ======= -->
+    <footer class="footer">
+        <div class="my-container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-4 address-section">
+                    <h4>RESTAURANTLY</h4>
+                    <p>A108 Adam Street <br> NY 535022, USA <br><br>Phone : +91 9050570769 <br> Email : gurdeepsaini9050@gmail.com</p>
+                    <div class="social-media">
+                        <span class="fa fa-twitter"></span>
+                        <span class="fa fa-facebook"></span>
+                        <span class="fa fa-instagram"></span>
+                        <span class="fa fa-skype"></span>
+                        <span class="fa fa-linkedin-square"></span>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 link-section">
+                    <h5>Useful Links</h5>
+                    <ul class="useful-list">
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Home</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">About us</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Services</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Terms of service</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 link-section">
+                    <h5>Our Services</h5>
+                    <ul class="useful-list">
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Web Design</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Web Development</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Product Management</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Marketing</a></li>
+                        <li class="useful-link"><span class="fa fa-chevron-right"></span><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-4 col-sm-4 newsletter-section">
+                    <h5>Our Newsletter</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur elit. Suscipit nesciunt omnis perferendis nulla tempore.</p>
+                    <div class="subscribe-box">
+                        <form action="#" class="form form-group">
+                            <input class="form-control" type="text">
+                            <button type="submit" class="book-a-table subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-2">
+        <div class="my-container">
+            <div class="text">
+                <p>&copy; Copyright <span>Restaurantly</span>. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- ======= Back To Top Starts ======= -->
+    <div class="back-to-top">
+        <a href="#top"><span class="fa fa-arrow-up"></span></a>
+    </div>
+    <!-- Back To Top Ends -->
+
+    <!-- JS Files -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  
+</body>
+</html>
