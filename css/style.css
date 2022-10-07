@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -518,8 +517,7 @@ html{
     }
 
     .sub-dropdown li span{
-        margin-left: 0.5rem;
-    
+        margin-left: 0.5rem;    
     }
 
     .sub-dropdown li ul{
@@ -701,6 +699,19 @@ html{
     }
 }
 
+@media only screen and (max-width:405px){
+    .sub-dropdown li ul {
+        left: calc(100% - 40px);
+        width: 140px;
+    }
+
+    .dropDown .sub-dropdown{
+        width: 150px;
+        left: 85%;
+        top: calc(100% + 13px);
+    }
+}
+
 @media only screen and (max-width:445px){
     .banner h1{
         font-size: 2.8rem;
@@ -729,7 +740,7 @@ html{
     }
 
     .banner h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .book-a-table{
@@ -737,6 +748,14 @@ html{
         font-size: 1rem;
     }
 }
+
+@media only screen and (max-width:375px){
+    .dropDown .sub-dropdown{
+        left: 60%;
+        top: calc(100% + 15px);
+    }
+}
+
 
 @media only screen and (max-width:353px){
     .my-container .top-bar .left p{
@@ -750,6 +769,13 @@ html{
     .banner h1{
         font-size: 2rem;
     }
+
+    .sub-dropdown li ul {
+        left: calc(100% - 55px);
+        width: 130px;
+        padding-left: 10px;
+    }
+
 }
 
 @media only screen and (max-width:307px){
@@ -922,6 +948,18 @@ html{
     }
 }
 
+@media only screen and (max-width:600px){
+    .about .image::before{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .about .image::after{
+        width: 40px;
+        height: 40px;
+    } 
+}
+
 @media only screen and (max-width:545px){   
     .about .text h2{
         font-size: 2.3rem;
@@ -936,17 +974,12 @@ html{
     }
 }
 
-@media only screen and (max-width:600px){
-    .about .image::before{
-        width: 40px;
-        height: 40px;
+@media only screen and (max-width:375px){
+    .about .image{
+        width: 85%;
     }
-    
-    .about .image::after{
-        width: 40px;
-        height: 40px;
-    } 
 }
+
 /* About Section Ends */
 
 /* ------ Why Us Starts ------ */
@@ -1713,7 +1746,7 @@ html{
     }
 
     .menu .menu-filter{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
