@@ -9,6 +9,7 @@ body{
 html{
     font-size: 15px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .my-container{
@@ -3410,7 +3411,7 @@ html{
 
 /* ------ Back To Top Starts ------ */
 
-.back-to-top a{
+.active-2 a{
     text-decoration: none;
     color: #cda45e;
     position: fixed;
@@ -3420,16 +3421,16 @@ html{
     transition: 0.1s;
 }
 
-.back-to-top a:visited{
+.active-2 a:visited{
     color: #cda45e;
 }
 
-.back-to-top:hover span{
+.active-2:hover span{
     color: #1a1814;
     background-color: #cda45e;
 }
 
-.back-to-top a span{
+.active-2 a span{
     font-size: 2rem;
     border-radius: 100%;
     background: none;
@@ -3438,10 +3439,10 @@ html{
     border: 2px solid #cda45e;
     text-align: center;
     padding-top: 1.4rem;
-    transition: 0.4s;
+    transition: 0.3s all linear;
 }
 
-.back-to-top:hover span{
+.active-2:hover span{
     color: #444444;
 }
 

@@ -51,3 +51,18 @@ var swiper = new Swiper(".mySwiper", {
     }
 });
 
+
+// Back To Top ======>
+
+window.addEventListener('scroll', () => {
+
+  const back_to_top = document.querySelector('.back-to-top');
+
+  if(window.pageYOffset >= 350){
+    back_to_top.classList.add('active-2');
+  }
+
+  else{
+    back_to_top.classList.remove('active-2');
+  };
+});
